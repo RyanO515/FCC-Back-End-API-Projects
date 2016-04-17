@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>File Data Microservice</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+
+	<h1 class="text-center">File Metadata Microservice</h1>
+	<h3 class="text-center"> FreeCodeCamp Back-End API section</h3>
+	
+
+	<div class="container">
+		<form role='form' action="/uploads" method="post" enctype="multipart/form-data">
+			<input type="file" name="file">
+			<input class="btn btn-primary" type="submit" value="Upload">
+		</form>
+	</div>
+
+	<div class="container" style="margin-top: 35px;">
+		<h4>User Stories: </h4>
+
+		<ul>
+			<li>I can submit a FormData object that includes a file upload.</li>
+			<li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+		</ul>
+
+	</div>
+	
+</body>
+</html>
